@@ -1,0 +1,42 @@
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 50vh;
+    }
+
+    .content {
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      width: 50%;
+      margin-top: 5px;
+      text-align: center;
+    }
+    
+    h1, a {
+      color: #333;
+      text-align: center;
+    }
+
+    a {
+      text-decoration: none; /* Remove underlines from links */
+      padding: 5px 10px;
+      margin: 0 10px;
+      border: 2px solid #4caf50; /* Dark green border */
+      border-radius: 5px; /* Rounded corners for buttons */
+      transition: background-color 0.3s ease; /* Smooth transition on hover */
+    }
+    .btn{
+     text-align: center;
+    }
+
+    a:hover {
+      background-color: #4caf50; /* Dark green background on hover */
+      color: #f0f8f0; /* Light text color on hover */
+    }
